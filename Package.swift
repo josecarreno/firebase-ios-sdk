@@ -136,64 +136,64 @@ let package = Package(
   dependencies: [
     .package(
       name: "Promises",
-      url: "https://github.com/google/promises.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/google/promises.git",
       "1.2.8" ..< "3.0.0"
     ),
     .package(
       name: "SwiftProtobuf",
-      url: "https://github.com/apple/swift-protobuf.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/apple/swift-protobuf.git",
       "1.15.0" ..< "2.0.0"
     ),
     .package(
       name: "GoogleAppMeasurement",
-      url: "https://github.com/google/GoogleAppMeasurement.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/josecarreno/GoogleAppMeasurement.git",
       // Note that CI changes the version to the head of main for CI.
       // See scripts/setup_spm_tests.sh.
-      .exact("8.8.0")
+      .branch("sbp")
     ),
     .package(
       name: "GoogleDataTransport",
-      url: "https://github.com/google/GoogleDataTransport.git",
-      "9.1.1" ..< "10.0.0"
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/josecarreno/GoogleDataTransport.git",
+      .branch("sbp")
     ),
     .package(
       name: "GoogleUtilities",
-      url: "https://github.com/google/GoogleUtilities.git",
-      "7.5.2" ..< "8.0.0"
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/josecarreno/GoogleUtilities.git",
+      .branch("sbp")
     ),
     .package(
       name: "GTMSessionFetcher",
-      url: "https://github.com/google/gtm-session-fetcher.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/google/gtm-session-fetcher.git",
       "1.5.0" ..< "2.0.0"
     ),
     .package(
       name: "nanopb",
-      url: "https://github.com/firebase/nanopb.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/nanopb.git",
       "2.30908.0" ..< "2.30909.0"
     ),
     .package(
       name: "abseil",
-      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/abseil-cpp-SwiftPM.git",
       "0.20200225.3" ..< "0.20200226.0"
     ),
     .package(
       name: "gRPC",
-      url: "https://github.com/firebase/grpc-SwiftPM.git",
-      "1.28.4" ..< "1.29.0"
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/josecarreno/grpc-SwiftPM.git",
+      .branch("sbp")
     ),
     .package(
       name: "OCMock",
-      url: "https://github.com/erikdoe/ocmock.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/erikdoe/ocmock.git",
       .revision("21cce26d223d49a9ab5ae47f28864f422bfe3951")
     ),
     .package(
       name: "leveldb",
-      url: "https://github.com/firebase/leveldb.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/firebase/leveldb.git",
       "1.22.2" ..< "1.23.0"
     ),
     .package(
       name: "GCDWebServer",
-      url: "https://github.com/SlaunchaMan/GCDWebServer.git",
+      url: "https://bns-proxy-github.apps.stg.azr-cc-pcf.cloud.bns/SlaunchaMan/GCDWebServer.git",
       .revision("935e2736044e71e5341663c3cc9a335ba6867a2b")
     ),
     // Branches need a force update with a run with the revision set like below.
